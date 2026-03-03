@@ -26,7 +26,7 @@ switch (opcoes) {
     case "/":
         if (numero2 === 0) {
             alert("Não é possivel dividir por zero. Tente novamente!");
-            window.location.reload();
+            //window.location.reload();
         } else {
             alert("O resultado da operação é: " + (numero1 / numero2));
         }
@@ -34,5 +34,8 @@ switch (opcoes) {
 
     default:
         alert("Informe um valor válido!");
-        window.location.reload();
+       // window.location.reload();
 }
+
+let variavel = NaN;
+console.log(typeof variavel);
